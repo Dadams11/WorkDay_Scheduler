@@ -1,0 +1,99 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color for the page */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the header */
+header {
+  background-color: #1d3557;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+/* Style for the container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the timeblocks */
+.time-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hour {
+  flex: 1;
+}
+
+.hour span {
+  font-weight: bold;
+}
+
+.description {
+  flex: 10;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.saveBtn {
+  flex: 1;
+  background-color: #1d3557;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Style for different timeblock states */
+
+.description .past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+/* Style for the footer */
+footer {
+  background-color: #1d3557;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the footer text */
+.footer-text {
+  font-size: 14px;
+}

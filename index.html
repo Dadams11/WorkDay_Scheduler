@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Planner</title>
+  <link rel="stylesheet" href="/Users/wolflovestein/Homework5-WorkDay_Scheduler/Homework5-WorkDay_Scheduler/Assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>Daily Planner</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <h2 id="currentDay"></h2>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Timeblocks for standard business hours -->
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>8am</span></div>
+        <textarea id="time-8" class="col-md-10 time-block description past" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="8">Save</button>
+      </div>
+
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>9am</span></div>
+        <textarea id="time-9" class="col-md-10 time-block description past" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="9">Save</button>
+      </div>
+      
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>10am</span></div>
+        <textarea id="time-10" class="col-md-10 time-block description past" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="10">Save</button>
+      </div>
+      
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>11am</span></div>
+        <textarea id="time-11" class="col-md-10 time-block description present" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="11">Save</button>
+      </div>
+      
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>12pm</span></div>
+        <textarea id="time-12" class="col-md-10 time-block description present" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="12">Save</button>
+      </div>
+      
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>1pm</span></div>
+        <textarea id="time-13" class="col-md-10 time-block description present" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="13">Save</button>
+      </div>
+      
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>2pm</span></div>
+        <textarea id="time-14" class="col-md-10 time-block description present" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="14">Save</button>
+      </div>
+      
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>3pm</span></div>
+        <textarea id="time-15" class="col-md-10 time-block description present" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="15">Save</button>
+      </div>
+      
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>4pm</span></div>
+        <textarea id="time-16" class="col-md-10 time-block description future" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="16">Save</button>
+      </div>
+      
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>5pm</span></div>
+        <textarea id="time-17" class="col-md-10 time-block description future" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="17">Save</button>
+      </div>
+
+      <div class="row time-div">
+        <div class="col-md-1 hour"><span>6pm</span></div>
+        <textarea id="time-18" class="col-md-10 time-block description future" placeholder="Add schedule item here"></textarea>
+        <button class="col-md-1 saveBtn" data-time="18">Save</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src=/Users/wolflovestein/Homework5-WorkDay_Scheduler/Homework5-WorkDay_Scheduler/Assets/script.js></script>
+</body>
+</html>
