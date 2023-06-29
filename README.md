@@ -4,4 +4,5 @@ This is project 5 and the purpose of this project is to build a calendar and all
 Deployed URL https://dadams11.github.io/Homework5-WorkDay_Scheduler/
 GitHub Page https://github.com/Dadams11/Homework5-WorkDay_Scheduler/
 
-![image](https://github.com/Dadams11/Homework5-WorkDay_Scheduler/assets/119827457/9dc3f8cf-367c-4996-be5e-508dd615d3fa)
+![Screen Shot 2023-06-29 at 6 03 41 PM](https://github.com/Dadams11/Homework5-WorkDay_Scheduler/assets/119827457/efad8195-65a6-4bee-b060-1e15e1b91c92)
+
