@@ -6,11 +6,11 @@ The current date will appear at the top of the page for your reference and conve
 Each hour will be colored depending on if that hour is in the past, future, or is the current hour.
 
 ## Built With
-HTML
-CSS
-Javascript
-jquery API
-bootstrap API
+- HTML
+- CSS
+- Javascript
+- jquery API
+- bootstrap API
 
 Deployed URL https://dadams11.github.io/Homework5-WorkDay_Scheduler/
 GitHub Page https://github.com/Dadams11/Homework5-WorkDay_Scheduler/
