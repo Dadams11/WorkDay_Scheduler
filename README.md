@@ -1,4 +1,4 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler 
 ## Description
 
 The current date will appear at the top of the page for your reference and convenience. For each hour of the work day you can click and add tasks that you need to complete. By clicking the save button your tasks will be saved locally. Upon any closing or refreshing of the site, the previously saved tasks will be loaded onto the page. You can update existing tasks by clicking on them and re-saving them with the save button.
