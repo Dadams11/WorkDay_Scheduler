@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6a5acd;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#currentDay {
+  font-size: 1.2em;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.time-block {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.hour {
+  width: 100px;
+  padding: 10px;
+  background: #d3d3d3;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Base textarea styling */
+.description {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  resize: none;
+  font-size: 1rem;
+}
+
+/* Apply time color logic directly to textarea */
+.past .description {
+  background-color: #d3d3d3 !important;  /* Gray */
+  color: #333;
+}
+
+.present .description {
+  background-color: #ff6961 !important;  /* Red */
+  color: white;
+}
+
+.future .description {
+  background-color: #77dd77 !important;  /* Green */
+  color: #222;
+}
+
+.saveBtn {
+  width: 60px;
+  background: #06aed5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+}
+

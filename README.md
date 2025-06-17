@@ -1,19 +1,62 @@
-# Work Day Scheduler 
-## Description
+# Work Day Scheduler 🗓️
 
-The current date will appear at the top of the page for your reference and convenience. For each hour of the work day you can click and add tasks that you need to complete. By clicking the save button your tasks will be saved locally. Upon any closing or refreshing of the site, the previously saved tasks will be loaded onto the page. You can update existing tasks by clicking on them and re-saving them with the save button.
+A dynamic and responsive calendar application that allows users to save events for each hour of a standard business day. This project uses **jQuery**, **Day.js**, and **localStorage** to deliver real-time time tracking and data persistence right in the browser.
 
-Each hour will be colored depending on if that hour is in the past, future, or is the current hour.
+---
 
-## Built With
-- HTML
-- CSS
-- Javascript
-- jquery API
-- bootstrap API
+## 📌 Description
 
-Deployed URL https://dadams11.github.io/Homework5-WorkDay_Scheduler/
-GitHub Page https://github.com/Dadams11/Homework5-WorkDay_Scheduler/
+This calendar helps busy professionals plan their day efficiently. It color-codes each hourly block to visually indicate whether the time is in the past, present, or future. Users can click into any time block to enter a task and hit save — the input persists across sessions using `localStorage`.
 
-![Screen Shot 2023-06-29 at 6 03 41 PM](https://github.com/Dadams11/Homework5-WorkDay_Scheduler/assets/119827457/efad8195-65a6-4bee-b060-1e15e1b91c92)
+---
 
+## 🔗 Links
+
+- 🚀 **Deployed Application:** [View Here](https://dadams11.github.io/Homework5-WorkDay_Scheduler/)
+- 💻 **GitHub Repository:** [GitHub Repo](https://github.com/Dadams11/Homework5-WorkDay_Scheduler/)
+
+---
+
+## ✅ Features
+
+- Displays the **current day** at the top using Day.js
+- Time blocks for **standard business hours** (9 AM to 5 PM)
+- **Color-coded rows**:  
+  - ⬜ Gray for past hours  
+  - 🔴 Red for the current hour  
+  - 🟩 Green for future hours  
+- **Editable time blocks** — enter tasks or appointments
+- **Save buttons** store input to `localStorage`
+- Tasks persist even after page refresh
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3 (with custom styling)
+- jQuery
+- Day.js (for time/date handling)
+- Local Storage (for data persistence)
+
+---
+
+## 📸 Screenshot
+
+![Screenshot of the Work Day Scheduler](./assets/images/screenshot.png)
+
+> _Optional: Add your own screenshot to `./assets/images/screenshot.png` or update this path._
+
+---
+
+## 🧑‍💻 Author
+
+**Darnell Adams Jr**  
+Ohio State Coding Bootcamp Graduate  
+[GitHub Profile](https://github.com/Dadams11)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
